@@ -80,28 +80,20 @@ const URB_NOMBRES = {
 
 const USUARIOS_AUTORIZADOS = {
     'admin': { password: 'admin', tipo: 'administrador' },
-    'blanca.choque': { password: 'Red_1', tipo: 'administrador' },
-    'olga.cahuana': { password: 'Red_2', tipo: 'administrador' }
+    'patricia.nievez': { password: 'patricia12345', tipo: 'administrador' },
+    'aleida.mendoza': { password: 'aleida12345', tipo: 'administrador' }
 };
 
 // Usuarios secundarios - solo pueden cambiar de DISPONIBLE a RESERVADO
 const USUARIOS_SECUNDARIOS = {
     'usuario1': { password: 'usuario1', tipo: 'secundario' },
-    'jessica.pamela': { password: 'jessica2002', tipo: 'secundario' }
+    'jesus.nilaca': { password: 'jesus2026', tipo: 'secundario' }
 };
 
 // Usuarios cotizadores - solo pueden generar cotizaciones de lotes (PDF)
 const USUARIOS_COTIZADORES = {
-    'cancio.leon': { password: 'Pro-1', tipo: 'cotizador' },
-    'vilma.sosa': { password: 'Pro-2', tipo: 'cotizador' },
-    'alvaro.cahuana': { password: 'Pro-3', tipo: 'cotizador' },
-    'alvaro.flores': { password: 'Pro-4', tipo: 'cotizador' },
-    'yulissa.mendoza': { password: 'Pro-5', tipo: 'cotizador' },
-    'dieter.contreras': { password: 'Pro-6', tipo: 'cotizador' },
-    'zulma.contreras': { password: 'Pro-7', tipo: 'cotizador' },
-    'cinthia.choque': { password: 'Pro-8', tipo: 'cotizador' },
-    'eddy.cahuana': { password: 'Pro-9', tipo: 'cotizador' },
-    'lucy.cahuana': { password: 'Pro-10', tipo: 'cotizador' }
+    'juan.mendez': { password: 'juan2026', tipo: 'cotizador' },
+    'ninethy.andrade': { password: 'ninethy2026', tipo: 'cotizador' }
 };
 
 const ZOOM_LEVELS = {
